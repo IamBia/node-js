@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Courses I am learning from</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <style>
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: inherit;
+    }
+
+    html {
+      font-size: 62.5%;
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 5rem 5rem 10rem;
+      line-height: 1.7;
+      font-family: 'Poppins', sans-serif;
+      color: #555;
+      min-height: 100vh;
+      background: linear-gradient(to bottom, #2193b0, #6dd5ed);
+    }
+
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 6rem;
+      color: white;
+      text-align: center;
+      position: relative;
+      word-spacing: 3px;
+    }
+
+    /* h1::before {
+          content: '';
+          display: block;
+          height: 65%;
+          width: 49%;
+          position: absolute;
+          top: 105%;
+          left: 50%;
+          background: linear-gradient(to bottom,  #2193b0, #6dd5ed);
+          opacity: 0.8;
+          z-index: -1;
+        } */
+
+    .container {
+      width: 107rem;
+      margin: 0 auto;
+    }
+
+    .cards-container {
+      margin-top: 8rem;
+    }
+
+    .card {
+      background: white;
+      box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+      margin-bottom: 5rem;
+      display: flex;
+      transition: all 0.5s;
+    }
+
+    .card__emoji {
+      font-size: 5.5rem;
+      line-height: 1.2;
+      padding: 1.5rem 6rem 0.5rem 1.5rem;
+      letter-spacing: -4rem;
+    }
+
+    .card__title-box {
+      background: linear-gradient(to bottom, #2193b0, #6dd5ed);
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      padding: 0 3rem;
+    }
+
+    .card__title {
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      font-size: 3.25rem;
+    }
+
+    .card__details {
+      display: flex;
+    }
+
+    .card__detail-box {
+      align-self: stretch;
+      border-right: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+    }
+
+    .card__detail-box:last-child {
+      border: none;
+    }
+
+    .card__detail {
+      font-weight: 400;
+      font-size: 1.8rem;
+      padding: 1.75rem;
+    }
+
+    .card__detail--finished {
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 1.9rem;
+      background: linear-gradient(to bottom, #2193b0, #6dd5ed);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .card__detail--price {
+      font-weight: 900;
+      font-size: 1.9rem;
+    }
+
+    .card__link:link,
+    .card__link:visited {
+      flex: 0 0 auto;
+      background-color: #2193b0;
+      color: white;
+      font-size: 1.6rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 2.5rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s;
+    }
+
+    .card__link:hover,
+    .card__link:active {
+      background-color: #2193b0;
+    }
+
+    .card:hover {
+      transform: scale(1.1);
+      box-shadow: 0 3rem 8rem 2rem rgba(0, 0, 0, 0.15);
+    }
+
+    .emoji-left {
+      font-size: 2rem;
+      margin-right: 1rem;
+    }
+
+    .emoji-right {
+      font-size: 2rem;
+      margin-left: 1rem;
+    }
+
+    .not-finished {
+      display: none;
+    }
+  </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>COURSES</h1>
+
+      <div class="cards-container">
+        {%COURSE_CARDS%}
+      </div>
+      <p style="float: right;">All prices are fictional</p>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,71 @@
+[
+    {
+        "id": 0,
+        "name": "React JS",
+        "teacher": "Maximilian Schwarzmüller",
+        "duration": "45 hours",
+        "completed": false,
+        "description": "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!",
+        "where": "Udemy",
+        "price": "11.99"
+    },
+    {
+        "id": 1,
+        "name": "Vue JS",
+        "teacher": "Maximilian Schwarzmüller",
+        "duration": "21.5 hours",
+        "completed": true,
+        "description": "Vue.js is an awesome JavaScript Framework for building Frontend Applications! VueJS mixes the Best of Angular + React!",
+        "where": "Udemy",
+        "price": "12.99"
+    },
+    {
+        "id": 3,
+        "name": "Node JS",
+        "teacher": "Jonas Schmedtmann",
+        "duration": "32 hours",
+        "completed": false,
+        "description": "Master Node by building a real-world RESTful API and web app (with authentication, Node.js security, payments & more)",
+        "where": "Udemy",
+        "price": "10.99"
+    },
+    {
+        "id": 4,
+        "name": "Advanced CSS and SASS",
+        "teacher": "Jonas Schmedtmann",
+        "duration": "32 hours",
+        "completed": true,
+        "description": "The most advanced and modern CSS course on the internet: master flexbox, CSS Grid, responsive design, and so much more.",
+        "where": "Udemy",
+        "price": "16.99"
+    }, {
+        "id": 5,
+        "name": "WordPress Developer",
+        "teacher": "Brad Schiff",
+        "duration": "27 hours",
+        "completed": true,
+        "description": "Learn PHP, JavaScript, WordPress theming & the WP REST API to Create Custom & Interactive WordPress Websites",
+        "where": "Udemy",
+        "price": "18.99"
+    },
+    {
+        "id": 6,
+        "name": "Javascript",
+        "teacher": "Brad Traversy",
+        "duration": "21.5 hours",
+        "completed": false,
+        "description": "Learn and build projects with pure JavaScript (No frameworks or libraries)",
+        "where": "Udemy",
+        "price": "17.99"
+    },
+    {
+        "id": 7,
+        "name": "Nuxt",
+        "teacher": "Maximilian Schwarzmüller",
+        "duration": "6.5 hours",
+        "completed": false,
+        "description": "Build highly engaging Vue JS apps with Nuxt.js. Nuxt adds easy server-side-rendering and a folder-based config approach.",
+        "where": "Udemy",
+        "price": "18.99"
+    }
+]
